@@ -1,6 +1,6 @@
 #In The name of Allah the most merciful 
 #some genomes were Downloaded from PATRIC
-patric database #PS:this website is closed by 14/12/2022.and replaced by BV-BVRC
+#patric database #PS:this website is closed by 14/12/2022.and replaced by BV-BVRC
 https://legacy.patricbrc.org/ 
 #as a fast and quick qc, the identdy with CGE website 
 http://www.genomicepidemiology.org/
