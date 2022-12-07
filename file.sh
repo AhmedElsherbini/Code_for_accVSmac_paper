@@ -117,5 +117,70 @@ for file in $path_f/*.db; do
 done
 
 #############################################################################################################
+#3
+#Roary analysis
 
+roary -r -f accolens  -e --mafft  -p 32 CA*
+
+roary -r -f mac  -e --mafft  -p 32 CM*
+
+roary -r -f all  -e --mafft -p 32  *.gff
+
+query_pan_genome -a difference --input_set_one \
+
+CA_ATCC_49725.gff,\
+CA_ATCC_49726.gff,\
+CA_BBMGS-S02-097.gff,\
+CA_MAM_C779.gff,\
+CA_MAM_C781.gff,\
+CA_MAM_C787.gff,\
+CA_SDB_CI5886.gff,\
+CA_SDB_Cl5456.gff,\
+CA_SDB_Cl6012.gff,\
+CA_SDB_Cl5570.gff,\
+CA_SH_157.gff,\
+CA_SH_181.gff,\
+CA_SH_184.gff,\
+CA_SH_192.gff,\
+CA_SH_219.gff,\
+CA_SH_23.gff,\
+CA_SH_247.gff,\
+CA_SH_262.gff,\
+CA_KPL_1996.gff,\
+CA_KPL_1818.gff,\
+CA_KPL_1824.gff,\
+CA_KPL_1855.gff,\
+CA_SH_281.gff,\
+CA_SH_41.gff,\
+CA_SH_79.gff,\
+CA_SH_98.gff,\
+CA_strain_NCTC934.gff \
+
+--input_set_two \
+
+CM_strain_06T638.gff,\
+CM_strain_12T220.gff,\
+CM_strain_12T66.gff,\
+CM_strain_14T168.gff,\
+CM_strain_14T424.gff,\
+CM_strain_14T514.gff,\
+CM_strain_14T631.gff,\
+CM_strain_150801.gff,\
+CM_strain_151011.gff,\
+CM_strain_160430.gff,\
+CM_strain_160603.gff,\
+CM_strain_160806.gff,\
+CM_strain_160811.gff,\
+CM_strain_160812.gff,\
+CM_strain_161211.gff,\
+CM_strain_170718.gff,\
+CM_strain_171015.gff,\
+CM_strain_171203.gff,\
+CM_strain_180126.gff,\
+CM_strain_180208.gff,\
+CM_strain_180216.gff,\
+CM_strain_9T245.gff,\
+CM_strain_CCUG_32361.gff,\
+CM_strain_NML_080212.gff,\
+CM_strain_NML_120205.gff
 
