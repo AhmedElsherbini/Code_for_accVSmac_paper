@@ -37,12 +37,15 @@ bakta_db download --output /beegfs/work/tu_bcoea01/bakta
 
 ###########################################################################################################################################
 #0
-#for phylogentic analysis
+#for phylogentic analysis, antibiotic , virulence factors
 #Make sure to have an outgroup species #in this anaylsis was 
 #This analysis was done on the HPC
 #Make sure that folder contains your islates only in faa file no other extra files even if in other extension
 phylophlan -i /beegfs/work/tu_bcoea01/my_micro/acco/faa_files_CA  -d phylophlan  --nproc 32 --diversity low  -f supermatrix_aa.cfg --databases_folder ./newfolder  --verbose   -o acco_mac_T_12_6
 #further annoation was done on ITOL (https://itol.embl.de/)
+#for Antibiotic and virulence factors over all genebank files
+abricate *.gbk
+
 ##############################################################################################################1
 #1
 #for the analysis of FastAni
