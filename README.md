@@ -15,6 +15,11 @@ for d in *.fna ; do f=$(echo $d | sed -E "s/\.fna*//") ; genomad end-to-end --sp
 ```
 
 
+
+```Bash
+for d in *.fna ; do f=$(echo $d | sed -E "s/\.fna*//") ; isescan.py --seqfile $d --output $f --nthread 28; done
+```
+
 ```Bash
 panaroo -i *.gff -o results --clean-mode strict
 ```
