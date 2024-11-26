@@ -23,3 +23,14 @@ for d in *.fna ; do f=$(echo $d | sed -E "s/\.fna*//") ; isescan.py --seqfile $d
 ```Bash
 panaroo -i *.gff -o results --clean-mode strict
 ```
+
+```Bash
+
+conda activate phammseqs-envs
+```
+```Bash
+phammseqs *.faa  -p
+```
+```Bash
+phamclust strain_genes.tsv ./phamclust
+```
