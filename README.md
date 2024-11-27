@@ -1,7 +1,8 @@
 
 ```Bash
 ls *.fna > file.txt
-
+```
+```Bash
 fastANI --rl file.txt --ql genome_list.txt -t 64 -o fastani_output.txt
 ```
 
@@ -29,18 +30,14 @@ for dir in *; do if cd $dir; then  for filename in *quality_summary.tsv ; do mv 
  nawk 'FNR==1 && NR!=1{next;}{print}' *.tsv > merged.tsv
 ```
 
-```
-while IFS= read -r filename; do cp "$filename" ./hq/ ; done < high_qulaity.txt
 ```Bash
+while IFS= read -r filename; do cp "$filename" ./hq/ ; done < high_qulaity.txt
+```
 
 ```Bash
 panaroo -i *.gff -o results --clean-mode strict
 ```
 
-```Bash
-
-conda activate phammseqs-envs
-```
 ```Bash
 phammseqs *.faa  -p
 ```
