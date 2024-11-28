@@ -128,7 +128,8 @@ for dir in *; do if cd $dir; then  for filename in *classifier_result.tsv ; do m
 ```
 
 ```Bash
- cp **/*.classifier_result.tsv ./results
+cp **/*_classifier_result.tsv ./results
+
 ```
 
 **Core genome analysis**
