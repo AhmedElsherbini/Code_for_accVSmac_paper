@@ -127,6 +127,9 @@ name all classfier_results files  by the name of the genome
 for dir in *; do if cd $dir; then  for filename in *classifier_result.tsv ; do mv $filename ${dir}_classifier_result.tsv ; done; cd ..; fi; done
 ```
 
+```Bash
+ cp **/*.classifier_result.tsv ./results
+```
 
 **Core genome analysis**
 
