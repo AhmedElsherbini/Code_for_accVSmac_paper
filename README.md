@@ -13,7 +13,7 @@ all the genomes were annotated with prokka and bakta (full database) using these
 
 
 ```Bash
-for d in *.fna ; do f=$(echo $d | sed -E "s/\.fna*//") ; prokka   --compliant --outdir $f  --prefix $f  $d --cpus 16 ; done
+for d in *.fna ; do f=$(echo $d | sed -E "s/\.fna*//") ; prokka  --compliant --outdir $f  --prefix $f  $d --cpus 16 ; done
 ```
 ```Bash
 for d in *.fna ; do f=$(echo $d | sed -E "s/\.fna*//") ;bakta $f.fna --verbose  --db /home/ahmed/bakta/db  --output $f --prefix $f ; done
@@ -129,8 +129,21 @@ for dir in *; do if cd $dir; then  for filename in *classifier_result.tsv ; do m
 
 ```Bash
 cp **/*_classifier_result.tsv ./results
-
 ```
+
+name them all 
+
+We need to add the name of the file in the first  column
+
+```Bash
+for file in *.tsv; do awk -v fname="$(basename "$file" .tsv)" 'NR==1 {print $0; next} {print fname "\t" $0}' "$file" > "${file%.tsv}_modified.tsv" ; done
+```
+
+```Bash
+nawk 'FNR==1 && NR!=1{next;}{print}' *.tsv > merged.tsv
+```
+
+
 
 **Core genome analysis**
 
