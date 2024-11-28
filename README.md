@@ -1,9 +1,13 @@
 
+Diversity and phylogney.
+
+let's list all files and draw the heatmap
 ```Bash
 ls *.fna > file.txt
 ```
+
 ```Bash
-fastANI --rl file.txt --ql genome_list.txt -t 64 -o fastani_output.txt
+fastANI --rl file.txt --ql file.txt -t 64 -o fastani_output.txt
 ```
 
 ```Bash
