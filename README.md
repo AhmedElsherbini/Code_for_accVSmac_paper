@@ -1,6 +1,6 @@
 **How do you download many files from the BV-BRC (PATRIC) website ?**
 
-Download the genomes ids in text file from the website and the respective metadata.
+Download the genomes ids in text file from the website  https://www.bv-brc.org/ and the respective metadata.
 
 Then,
 ```Bash
