@@ -38,7 +38,7 @@ Then we can use the R-script above for visualization.
 phylophlan -i /beegfs/work/tu_bcoea01/my_micro/acco/faa_files_CA/faa/  -d phylophlan --nproc 28 --diversity medium  -f supermatrix_aa.cfg --databases_folder ./newfolder  --verbose  -o output 
 
 ```
-visualization was done by the ITOL using with the help of ITOL(https://github.com/mgoeker/table2itol)
+visualization was done by the ITOL with the help of ITOL(https://github.com/mgoeker/table2itol)
 
 **genomic characterization**
 
@@ -66,7 +66,13 @@ Then all provirus genomes shall be collected in one folder using
 ```Bash
 cp **/*virus.fna ./genomes
 ```
-then we can use (https://github.com/AhmedElsherbini/Convert_and_print_multifasta) for generating one file per prophage.
+
+delete empty files
+
+```Bash
+find . -size 0 -delete
+```
+Then we can use (https://github.com/AhmedElsherbini/Convert_and_print_multifasta) to generate one file per prophage.
 
 To focus only on prophages with high quality, we can use checkv
 
