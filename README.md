@@ -40,7 +40,7 @@ phylophlan -i /beegfs/work/tu_bcoea01/my_micro/acco/faa_files_CA/faa/  -d phylop
 ```
 visualization was done by the ITOL with the help of ITOL(https://github.com/mgoeker/table2itol)
 
-**genomic characterization**
+**Genomic characterization**
 
 we can benefit from the output of bakta using bakta_stats (https://github.com/AhmedElsherbini/Bakta_stats) 
 
@@ -89,7 +89,7 @@ let's collect them,
 ```Bash
  cp **/*._quality_summary ./quality_folder
 ```
-We need to add the name of the file in the first 
+We need to add the name of the file in the first  colum
 
 ```Bash
 for file in *.tsv; do awk -v fname="$(basename "$file" .tsv)" 'NR==1 {print $0; next} {print fname "\t" $0}' "$file" > "${file%.tsv}_modified.tsv" ; done
@@ -114,6 +114,17 @@ phammseqs *.faa  -p
 ```
 ```Bash
 phamclust strain_genes.tsv ./phamclust
+```
+let's investigate the COG20 
+
+```Bash
+for d in *.faa ; do f=$(echo $d | sed -E "s/\.faa*//") ; mkdir $f ; COGclassifier -i $f.faa -o ./$f ; done
+```
+
+name all classfier_results files  by the name of the genome
+
+```Bash
+for dir in *; do if cd $dir; then  for filename in *classifier_result.tsv ; do mv $filename ${dir}_classifier_result.tsv ; done; cd ..; fi; done
 ```
 
 
