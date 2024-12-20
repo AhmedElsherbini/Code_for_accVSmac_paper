@@ -64,7 +64,7 @@ for d in *.fna ; do f=$(echo $d | sed -E "s/\.fna*//") ; genomad end-to-end --sp
 Then all provirus genomes shall be collected in one folder using 
 
 ```Bash
-cp **/*virus.fna ./genomes
+cp **/**/*virus.fna ./genomes
 ```
 
 delete empty files
