@@ -77,7 +77,7 @@ Then we can use (https://github.com/AhmedElsherbini/Convert_and_print_multifasta
 To focus only on prophages with high quality, we can use checkv
 
 ```Bash
-for d in *.fna ; do f=$(echo $d | sed -E "s/\.fna*//") ; checkv end_to_end ${f}.fna  ${f}output -t 16 -d ./checkv-db/ ; done
+for d in *.fna ; do f=$(echo $d | sed -E "s/\.fna*//") ; checkv end_to_end ${f}.fna  ${f}output -t 16 -d /home/ahmed/checkv/ ; done
 ```
 to collect the quality files we need to name them with the folder name
 ```Bash
