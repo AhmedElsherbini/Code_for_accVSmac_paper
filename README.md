@@ -89,7 +89,7 @@ let's collect them,
 ```Bash
  cp **/*._quality_summary ./quality_folder
 ```
-We need to add the name of the file in the first  colum
+We need to add the name of the file in the first  column
 
 ```Bash
 for file in *.tsv; do awk -v fname="$(basename "$file" .tsv)" 'NR==1 {print $0; next} {print fname "\t" $0}' "$file" > "${file%.tsv}_modified.tsv" ; done
