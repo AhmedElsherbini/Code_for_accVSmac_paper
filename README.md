@@ -87,7 +87,7 @@ for dir in *; do if cd $dir; then  for filename in *quality_summary.tsv ; do mv 
 let's collect them,
 
 ```Bash
- cp **/*._quality_summary ./quality_folder
+ cp **/*_quality_summary ./quality_folder
 ```
 We need to add the name of the file in the first  column
 
