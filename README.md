@@ -48,13 +48,16 @@ fastANI --rl file.txt --ql file.txt -t 64 -o fastani_output.txt
 ```
 Then, we can use the R script above for visualization.
 
+*What about Maximum Likelihood tree with protein markers ?*
+
+
 ```Bash
 phylophlan -i /beegfs/work/tu_bcoea01/my_micro/acco/faa_files_CA/faa/  -d phylophlan --nproc 28 --diversity medium  -f supermatrix_aa.cfg --databases_folder ./newfolder  --verbose  -o output 
 
 ```
 Visualization was done by the [ITOL](https://itol.embl.de/) with the help of [table2ITOL](https://github.com/mgoeker/table2itol)
 
-**Genomic characterization and Core genome analysis**
+**Genomic characterization and pan-genome analysis**
 
 Do not forget to mark all of your genome names with a prefix, like CAI, CAII_,..
 
@@ -63,14 +66,14 @@ We can benefit from the output of Bakta using [Bakta_stats](https://github.com/A
 Then, for visualization is done with R using this script.
 
 
-I  will use the nice tool of [Panaroo](https://github.com/gtonkinhill/panaroo) which used the gff files out of the Prokka tool.
+I  will use the nice tool of [Panaroo](https://github.com/gtonkinhill/panaroo), which uses the GFF files that are out of the Prokka tool.
 
 ```Bash
 panaroo -i *.gff -o results --clean-mode strict
 ```
 Then we need to extract unique and shared genes using the presence-absence CSV file from the output of Panaroo with this simple script named [Panroo_stats](https://github.com/AhmedElsherbini/Panaroo_stats). Later visualization with other R script attached.
 
-What about AMR profiling?
+*What about AMR profiling?*
 
 We can use the nice tool [AMRFinderPlus](https://github.com/ncbi/amr)
 
@@ -78,18 +81,30 @@ We can use the nice tool [AMRFinderPlus](https://github.com/ncbi/amr)
 for d in *.fna ; do f=$(echo $d | sed -E "s/\.fna*//") ; amrfinder -n $f.fna >> result.txt ; done
 ```
 
-What about the genome's alignment?
+*What about the genome's alignment?*
 
 Well, well, we can use the nice tool [pyGenomeViz](https://moshi4.github.io/pyGenomeViz/), just use the genbank files from long reads and play around with the nice GUI interface <code>pgv-gui</code>
 
 
-**Secondary metabolites analysis**
+**Secondary metabolites analysis and iron acquisition mechanisms**
 
 This analysis was done using the web tool of [AntiSMASH](https://antismash.secondarymetabolites.org/#!/start).
 
 To visualize the similarity of the BGC veruse the reference database, I downloaded the reference (which has similarity on to the core synthetic genes ) the AntiSMASH from [MIBiG](https://mibig.secondarymetabolites.org/) database, then we can use [Clinker](https://github.com/gamcil/clinker) to align the reference BGC. Then we can use [Clinker_naming](https://github.com/AhmedElsherbini/Clinker_naming) to annotate the genes as we like, which we can also use for the core genome analysis
 
 
+*What about the iron acquisition systems?*
+
+Use the fasta file from prokka, the FNA extension, and take care of the header in FASTA files, as it can interfere with analysis
+
+```Bash
+FeGenie.py -bin_dir genomes/ -bin_ext fna -out fegenie_out
+```
+For visualization, we used an R script (number_xx).
 
 
- 
+**RNA seq analysis**
+
+
+ For visualization, we used an R script (number_xx).
+
