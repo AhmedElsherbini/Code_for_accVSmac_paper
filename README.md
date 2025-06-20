@@ -73,6 +73,8 @@ panaroo -i *.gff -o results --clean-mode strict
 ```
 Then we need to extract unique and shared genes using the presence-absence CSV file from the output of Panaroo with this simple script named [Panroo_stats](https://github.com/AhmedElsherbini/Panaroo_stats). Later visualization with other R script attached.
 
+ For visualization, we used an R script (number_xx).
+
 *What about AMR profiling?*
 
 We can use the nice tool [AMRFinderPlus](https://github.com/ncbi/amr)
