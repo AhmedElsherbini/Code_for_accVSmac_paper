@@ -9,13 +9,13 @@ for file in *.txt; do while IFS= read -r line; do wget -qN "ftp://ftp.bvbrc.org/
 
 For genome assembly, we will use the friendly tool [Unicycler](https://github.com/rrwick/Unicycler)
 
-Shortread
+*Shortread*
 
 ```Bash
 for file in * 001.fastq.gz;do f=$(echo $file | sed -E "s/\_R1_001.fastq.gz*//"); unicycler -t 12 -o "$f" --keep 2 --short1 "$f"_R1_001.fastq.gz --R2--short2 "$f"_R2_001.fastq.gz ; done
 ```
 
-Longreads
+*Longreads*
 
 ```Bash
 
