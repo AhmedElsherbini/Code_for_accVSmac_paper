@@ -44,6 +44,8 @@ Visualization was done by the ITOL with the help of [table2ITOL](https://github.
 
 We can benefit from the output of Bakta using [Bakta_stats](https://github.com/AhmedElsherbini/Bakta_stats) 
 
+Do not forget to mark all of your genome names with a prefix, like CAI, CAII_,..
+
 ```Bash
  python bakta_stats.py -i ./txt 
 ```
@@ -51,6 +53,27 @@ Then for visualization is done with R using this script
 
 **Core genome analysis**
 
+I  will use the nice tool of [Panaroo](https://github.com/gtonkinhill/panaroo)
+
 ```Bash
 panaroo -i *.gff -o results --clean-mode strict
 ```
+Then we need to extract unique and shared genes using the presence-absence CSV file from the output of Panaroo with this simple script named [Panroo_stats](https://github.com/AhmedElsherbini/Panaroo_stats). Later visualization with other R script attached.
+
+What about AMR profiling?
+
+We can use the nice tool [amfinder] (https://github.com/ncbi/amr)
+
+```Bash
+for d in *.fna ; do f=$(echo $d | sed -E "s/\.fna*//") ; amrfinder -n $f.fna >> result.txt ; done
+```
+**Secondary metabolites analysis**
+
+This analysis was done using the web tool of [AntiSMASH](https://antismash.secondarymetabolites.org/#!/start).
+
+To visualize the systnehy of the BGC veruse the reference database, I downlord the reference (which has similarity on to the core synthetic genes ) the anstiamahs from [MIbBig](https://mibig.secondarymetabolites.org/) database then we can use [Clinker](https://github.com/gamcil/clinker) to align the reference BGC. Then we can use [Clinker_naming] (https://github.com/AhmedElsherbini/Clinker_naming) to annotate the genes as we like which also we can use for the core genome analysis
+
+
+
+
+ 
