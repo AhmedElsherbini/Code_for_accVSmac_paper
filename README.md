@@ -7,7 +7,7 @@ Then,
 for file in *.txt; do while IFS= read -r line; do wget -qN "ftp://ftp.bvbrc.org/genomes/$line/$line.fna"; f=$(echo "$file" | sed -E "s/\.csv_list.txt*//"); mkdir -p "$f"; mv "$line.fna" "$f"; cp "$file" "$f"; done < "$file"; done
 ```
 
-**How do you download many files from the BV-BRC (PATRIC) website ?**
+**How do you assemble short and hybrid long and short reads ?**
 
 For genome assembly, we will use the friendly tool [Unicycler](https://github.com/rrwick/Unicycler)
 
