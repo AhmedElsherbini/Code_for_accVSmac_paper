@@ -50,7 +50,7 @@ fastANI --rl file.txt --ql file.txt -t 64 -o fastani_output.txt
 ```
 Then, we can use the R script above for visualization.
 
-*What about Maximum Likelihood tree with protein markers ?*
+*What about the Maximum Likelihood tree with protein markers ?*
 
 
 ```Bash
@@ -61,12 +61,11 @@ Visualization was done by the [ITOL](https://itol.embl.de/) with the help of [ta
 
 **Genomic characterization and pan-genome analysis**
 
-Do not forget to mark all of your genome names with a prefix, like CAI, CAII_,..
+Do not forget to mark all of your genome names with a prefix, like CAI_, CAII_,..
 
 We can benefit from the output of Bakta using [Bakta_stats](https://github.com/AhmedElsherbini/Bakta_stats) 
 
-Then, for visualization is done with R using this script.
-
+For visualization, we can use an R script (number_xx).
 
 I  will use the nice tool of [Panaroo](https://github.com/gtonkinhill/panaroo), which uses the GFF files that are out of the Prokka tool.
 
@@ -104,11 +103,11 @@ Use the fasta file from prokka, the FNA extension, and take care of the header i
 ```Bash
 FeGenie.py -bin_dir genomes/ -bin_ext fna -out fegenie_out
 ```
-For visualization, we used an R script (number_xx).
+For visualization, we can use an R script (number_xx).
 
 
 **RNA seq analysis**
 
 
- For visualization, we used an R script (number_xx).
+ For visualization, we can use an R script (number_xx).
 
