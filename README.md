@@ -27,10 +27,14 @@ unicycler -1 AE7_2209-shA-008_S70_R1_001.fastq.gz -2 AE7_2209-shA-008_S70_R2_001
 
 All the genomes were annotated with Prokka and Bakta (full database) using these two commands.
 
+Prokka
 
 ```Bash
 for d in *.fna ; do f=$(echo $d | sed -E "s/\.fna*//") ; prokka  --compliant --outdir $f  --prefix $f  $d --cpus 16 ; done
 ```
+
+Bakta (full database)
+
 ```Bash
 for d in *.fna ; do f=$(echo $d | sed -E "s/\.fna*//") ;bakta $f.fna --verbose  --db /home/ahmed/bakta/db  --output $f --prefix $f ; done
 ```
