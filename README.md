@@ -1,6 +1,6 @@
 ## Iron acquisition mechanisms are signatures for ecological adaptation of the human nasal species *Corynebacterium accolens*
 
-**This repo is for the publication of [Rv.D et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37865781/)**
+**This repo is for the publication of Elsherbini et al. 
 
 
 **How do you download many files from the BV-BRC (PATRIC) website ?**
