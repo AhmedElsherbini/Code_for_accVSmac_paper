@@ -28,7 +28,7 @@ for file in * 001.fastq.gz;do f=$(echo $file | sed -E "s/\_R1_001.fastq.gz*//");
 
 ```Bash
 
-for file in *_R1_001.fastq.gz; do f=$(echo "$file" | sed -E 's/_R1_001.fastq.gz//'); long="${f}_pass.fastq.gz"; [[ -f "$long" ]] && unicycler -t 28 -o "$f" --keep 2 --short1 "${f}_R1_001.fastq.gz" --short2 "${f}_R2_001.fastq.gz" -l "$long" ; done
+for file in *_R1_001.fastq.gz; do f=$(echo "$file" | sed -E 's/_R1_001.fastq.gz//'); long="${f}_pass.fastq.gz";  unicycler -t 28 -o "$f" --keep 2 --short1 "${f}_R1_001.fastq.gz" --short2 "${f}_R2_001.fastq.gz" -l "$long" ; done
 ```
 **Annotation**
 
