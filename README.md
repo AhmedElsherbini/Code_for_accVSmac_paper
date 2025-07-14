@@ -21,14 +21,14 @@ For genome assembly, we will use the friendly tool [Unicycler](https://github.co
 *Shortread*
 
 ```Bash
-for file in * 001.fastq.gz;do f=$(echo $file | sed -E "s/\_R1_001.fastq.gz*//"); unicycler -t 12 -o "$f" --keep 2 --short1 "$f"_R1_001.fastq.gz --R2--short2 "$f"_R2_001.fastq.gz ; done
+for file in * 001.fastq.gz;do f=$(echo $file | sed -E "s/\_R1_001.fastq.gz*//"); unicycler -t 28 -o "$f" --keep 2 --short1 "$f"_R1_001.fastq.gz --R2--short2 "$f"_R2_001.fastq.gz ; done
 ```
 
 *Hybrid*
 
 ```Bash
 
-unicycler -1 AE7_2209-shA-008_S70_R1_001.fastq.gz -2 AE7_2209-shA-008_S70_R2_001.fastq.gz -l AE7_2209-shB-d1-008.fastq.gz -o output_dir
+for file in *_R1_001.fastq.gz; do f=$(echo "$file" | sed -E 's/_R1_001.fastq.gz//'); long="${f}_pass.fastq.gz"; [[ -f "$long" ]] && unicycler -t 28 -o "$f" --keep 2 --short1 "${f}_R1_001.fastq.gz" --short2 "${f}_R2_001.fastq.gz" -l "$long" ; done
 ```
 **Annotation**
 
