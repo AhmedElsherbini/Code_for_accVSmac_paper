@@ -7,7 +7,7 @@
 
 **How do you download many files from the BV-BRC (PATRIC) website ?**
 
-Download the genomes' IDs in a text file from the [website](https://www.bv-brc.org/) and the respective metadata.
+Download the genomes' IDs in a text file from the [BV-BRC website](https://www.bv-brc.org/) and the respective metadata.
 
 Then,
 ```Bash
@@ -104,7 +104,7 @@ Well, well, we can use the nice tool [pyGenomeViz](https://moshi4.github.io/pyGe
 
 This analysis was done using the web tool of [antiSMASH](https://antismash.secondarymetabolites.org/#!/start).
 
-To visualize the similarity of the BGC veruse the reference database, I downloaded the reference (which has similarity on to the core synthetic genes ) the antiSMASH from [MIBiG](https://mibig.secondarymetabolites.org/) database, then we can use [Clinker](https://github.com/gamcil/clinker) to align the reference BGC. Then we can use [Clinker_naming](https://github.com/AhmedElsherbini/Clinker_naming) to annotate the genes as we like, which we can also use for the core genome analysis
+To visualize the similarity of the BGC veruse the reference database, I downloaded the reference (which has similarity on to the core synthetic genes ) the antiSMASH from [MIBiG](https://mibig.secondarymetabolites.org/) database, then we can use [Clinker](https://github.com/gamcil/clinker) to align the reference BGC. Then we can use [Clinker_naming](https://github.com/AhmedElsherbini/Clinker_naming) to annotate the genes as we like.
 
 
 *What about the iron acquisition systems?*
