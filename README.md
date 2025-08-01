@@ -119,6 +119,10 @@ For visualization, we can use an R script (number_xx).
 
 **RNA seq analysis**
 
+The RNA-seq data was analyzed using an in-house pipeline (DOI: 10.5281/zenodo.7500899) and the script `RNA-seq/Run_RNAseq_analysis.sh`. 
+
+The resulting featureCounts tables were consolidated into one file and further processed using DESeq2 (`RNA-seq/applyDEseq.sh`)
+
 
  For visualization, we can use an R script (number_xx).
 
