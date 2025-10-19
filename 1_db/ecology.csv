@@ -1,0 +1,647 @@
+Sample,Species,Prev.
+Cancer borealis,CA,100
+Aphthona venustula,CA,100
+Crioceris duodecimpunctata,CA,100
+Centricnemus leucogrammus,CA,100
+Arabidopsis,CA,100
+Oenothera,CA,100
+Rubus,CA,100
+Punica granatum,CA,100
+Cyamopsis tetragonoloba,CA,100
+179.C.PMA,CA,100
+Branchiostoma belcheri,CA,100
+Candidatus Entotheonella sp.,CA,100
+Daphnia obtusa,CA,100
+Diospyros kaki,CA,100
+Eublepharis macularius,CA,100
+Gemmatimonas,CA,100
+Rhipicephalus haemaphysaloides,CA,100
+Skermanella,CA,100
+Argoptochus quadrisignatus,CA,90
+Bembidion modestum,CA,90
+Crotalaria retusa,CA,75
+Lantana,CA,75
+human milk metagenome,CA,68.0412371134021
+Lactobacillus crispatus,CA,66.6666666666667
+Bembidion decorum,CA,66.6666666666667
+Nepenthes rafflesiana,CA,62.7906976744186
+Metrosideros polymorpha,CA,62.2222222222222
+human nasal/pharyngeal metagenome,CA,60.4444444444444
+Bembidion punctulatum,CA,60
+Eusomus ovulum,CA,60
+Aphodius depressus,CA,60
+Onthophagus ruficapillus,CA,60
+Aphodius haemorrhoidalis,CA,60
+Onthophagus similis,CA,60
+Ochlerotatus stimulans,CA,52.5
+Caenorhabditis elegans,CA,50.5882352941176
+Alphaproteobacteria,CA,50
+Polydrusus inustus,CA,50
+Solanum lycopersicum,CA,50
+Bembidion varicolor,CA,50
+Sophora,CA,50
+Acacia koa,CA,50
+Mycale grandis,CA,50
+Solirubrobacter,CA,50
+dinoflagellate metagenome,CA,50
+invertebrate metagenome,CA,48.8372093023256
+Bacteriastrum furcatum,CA,48
+Litoditis marina,CA,45.4545454545455
+Enterovirus D68,CA,44.4444444444444
+urogenital metagenome,CA,42
+Phormia,CA,41.1764705882353
+Heptageniidae environmental sample,CA,40.3508771929825
+Paederidus ruficollis,CA,40
+Aphodius pusillus,CA,40
+hospital metagenome,CA,36.5079365079365
+dust metagenome,CA,36.4440078585462
+beetle metagenome,CA,36.3914373088685
+urban metagenome,CA,34.2857142857143
+Brassica rapa var. Rapa,CA,33.3333333333333
+Paederidus rubrothoracicus,CA,33.3333333333333
+Oncorhynchus keta,CA,33.3333333333333
+Trachemys scripta,CA,33.3333333333333
+Gaiella,CA,33.3333333333333
+Haliangium,CA,33.3333333333333
+Lucilia,CA,33.3333333333333
+Rotavirus A,CA,33.3333333333333
+human nasopharyngeal metagenome,CA,32.9896907216495
+Lactobacillus acidifarinae,CA,32.5
+Tripneustes gratilla,CA,30.7692307692308
+air metagenome,CA,30.2769818529131
+zebrafish metagenome,CA,30
+Daucus carota,CA,30
+Cheilotoma musciformis,CA,30
+Helicobacter pylori,CA,29.1970802919708
+mine tailings metagenome,CA,27.7777777777778
+1214906,CA,26.8292682926829
+insect environmental sample,CA,25
+Carica papaya,CA,25
+Brassica oleracea var. botrytis,CA,25
+Chamaecrista,CA,25
+fish metagenome,CA,24.929178470255
+Aedes albopictus,CA,24.390243902439
+human skin metagenome,CA,24.0185471406491
+Subpsaltria yangi,CA,22.5806451612903
+Brassica napus var. Napus,CA,22.2222222222222
+Anas platyrhynchos,CA,21.4285714285714
+Brassica oleracea var. capitata,CA,20
+Aphis gossypii,CA,20
+Crioceris quatuordecimpunctata,CA,20
+Diplotaxis tenuifolia,CA,20
+Paederus riparius,CA,20
+Onthophagus ovatus,CA,20
+Aphodius sphacelatus,CA,20
+Norovirus 02/2010/Nanjing,CA,20
+Onthophagus taurus,CA,20
+Python regius,CA,20
+unidentified virus,CA,19.4805194805195
+Calliphora,CA,19.4444444444444
+invertebrate gut metagenome,CA,18.75
+Salmo salar,CA,18.5929648241206
+Megaptera novaeangliae,CA,18.4615384615385
+salt lake metagenome,CA,18.1818181818182
+Calliphora terraenovae,CA,16.1290322580645
+Saxifraga oppositifolia,CA,15
+cave metagenome,CA,15
+pig metagenome,CA,14.5438898450947
+Brassica napus,CA,14.2348754448399
+rock metagenome,CA,14.2011834319527
+echinoderm metagenome,CA,13.8888888888889
+coral metagenome,CA,12.8443649373882
+Vitis vinifera,CA,12.7049180327869
+enrichment culture,CA,12.6126126126126
+honey metagenome,CA,12.5
+human bile metagenome,CA,12.5
+koala metagenome,CA,12.5
+cetacean metagenome,CA,12.5
+skin metagenome,CA,12.1396054628225
+Lactobacillus,CA,12.0879120879121
+Bactrocera dorsalis,CA,11.9047619047619
+Cyprinus carpio,CA,11.7647058823529
+shrimp gut metagenome,CA,11.6279069767442
+milk metagenome,CA,11.4637305699482
+Euprymna scolopes,CA,11.2903225806452
+Sus scrofa,CA,10.9756097560976
+Peromyscus leucopus,CA,10.655737704918
+human metagenome,CA,10.3512573703573
+Rhipicephalus sanguineus,CA,10.2564102564103
+Rhizoctonia solani,CA,10
+Hyphochytrium catenoides,CA,10
+Paederus limnophilus,CA,10
+alkali sediment metagenome,CA,10
+urine metagenome,CA,9.93377483443709
+respiratory tract metagenome,CA,9.53461975028377
+Homo sapiens,CA,9.53303858034038
+Littoraria irrorata,CA,9.52380952380952
+aerosol metagenome,CA,9.30232558139535
+insect metagenome,CA,9.19689119170984
+Crassostrea gigas,CA,9.05982905982906
+clinical metagenome,CA,8.88888888888889
+fish gut metagenome,CA,8.5
+indoor metagenome,CA,8.34492350486787
+beach sand metagenome,CA,8.33333333333333
+Dermacentor andersoni,CA,8.33333333333333
+rumen bacterium 1/9293-11A,CA,8.33333333333333
+annelid metagenome,CA,8.10810810810811
+Drosophila simulans,CA,8
+Oncorhynchus mykiss,CA,7.82608695652174
+408170,CA,7.69230769230769
+upper respiratory tract metagenome,CA,7.6056338028169
+Phaseolus vulgaris,CA,7.35294117647059
+mosquito metagenome,CA,7.2790294627383
+Bombus terrestris,CA,7.14285714285714
+plastic metagenome,CA,7.14285714285714
+Bos grunniens,CA,7.14285714285714
+Reticulitermes flavipes,CA,6.89655172413793
+phyllosphere metagenome,CA,6.78605089538172
+Proteobacteria,CA,6.71140939597315
+Drosophila melanogaster,CA,6.66666666666667
+symbiont metagenome,CA,6.53266331658292
+Pristionchus pacificus,CA,6.50887573964497
+ant metagenome,CA,6.45161290322581
+oil field metagenome,CA,6.25
+Hirundo rustica,CA,6.17906683480454
+tick metagenome,CA,6.16438356164384
+floral nectar metagenome,CA,6.16016427104723
+uncultured bacterium,CA,6.10613036103707
+amplicon sequences,CA,6.06060606060606
+Sparus aurata,CA,6
+marine sediment metagenome,CA,5.82614056720099
+seagrass metagenome,CA,5.26315789473684
+root metagenome,CA,5.18774703557312
+metagenomes,CA,5.16581632653061
+metagenome,CA,5.09930220075148
+crustacean metagenome,CA,5.02283105022831
+16S rRNA gene amplicons,CA,5
+Fungia,CA,4.87804878048781
+glacier metagenome,CA,4.8582995951417
+Bacteria,CA,4.77178423236515
+frog metagenome,CA,4.76190476190476
+insect gut metagenome,CA,4.71945464079706
+Oscheius brevesophaga,CA,4.6875
+mouse metagenome,CA,4.60739779364049
+bird metagenome,CA,4.54545454545455
+biofilter metagenome,CA,4.41988950276243
+Ixodes scapularis,CA,4.3956043956044
+coral reef metagenome,CA,4.34782608695652
+unclassified sequences,CA,4.30107526881721
+hot springs metagenome,CA,4.29594272076372
+Ascomycota,CA,4.16666666666667
+human gut metagenome,CA,4.15870437607491
+ice metagenome,CA,4.03397027600849
+groundwater metagenome,CA,4.02684563758389
+bacterial mixed DNA library,CA,4
+solid waste metagenome,CA,4
+outdoor metagenome,CA,3.96039603960396
+crab metagenome,CA,3.92156862745098
+freshwater metagenome,CA,3.86486671691907
+plastisphere metagenome,CA,3.84615384615385
+human lung metagenome,CA,3.78684807256236
+Mus musculus domesticus,CA,3.77358490566038
+Struthio camelus,CA,3.69458128078818
+plant metagenome,CA,3.6856458143955
+aquatic metagenome,CA,3.57381111217002
+nematode metagenome,CA,3.35570469798658
+Porites lobata,CA,3.33333333333333
+Porites rus,CA,3.33333333333333
+Glycine max,CA,3.27868852459016
+bovine metagenome,CA,3.26975476839237
+mollusc metagenome,CA,3.18471337579618
+primate metagenome,CA,3.15315315315315
+terrestrial metagenome,CA,3.04396843291995
+Musca domestica,CA,3.03030303030303
+32644,CA,2.95454545454545
+Bacteria bahiensis,CA,2.94117647058823
+lake water metagenome,CA,2.89855072463768
+Copepoda environmental sample,CA,2.85714285714286
+gut metagenome,CA,2.68244669496952
+algae metagenome,CA,2.61248185776488
+vaginal metagenome,CA,2.52631578947368
+Sus scrofa domesticus,CA,2.46913580246914
+human blood metagenome,CA,2.38095238095238
+lung metagenome,CA,2.36220472440945
+marine metagenome,CA,2.31315775415353
+fermentation metagenome,CA,2.26904376012966
+Bacteria abnormis,CA,2.25988700564972
+ant fungus garden metagenome,CA,2.24719101123596
+uncultured prokaryote,CA,2.18204488778055
+silage metagenome,CA,2.0997375328084
+oral metagenome,CA,2.08333333333333
+snow metagenome,CA,2.08333333333333
+soil metagenome,CA,2.07552736391798
+Firmicutes bacterium,CA,2.06611570247934
+environmental samples,CA,2.06185567010309
+Bacteria acuminatocercata,CA,2.04081632653061
+stomach metagenome,CA,2.00617283950617
+synthetic metagenome,CA,1.99430199430199
+sediment metagenome,CA,1.95439739413681
+food fermentation metagenome,CA,1.94862710363153
+termite gut metagenome,CA,1.93548387096774
+Equus caballus,CA,1.92307692307692
+cow dung metagenome,CA,1.89873417721519
+seawater metagenome,CA,1.86046511627907
+uncultured organism,CA,1.8348623853211
+organismal metagenomes,CA,1.81818181818182
+mixed sample,CA,1.81818181818182
+Oreochromis niloticus,CA,1.78571428571429
+unclassified Bacteria (miscellaneous),CA,1.77777777777778
+unidentified,CA,1.71037628278221
+Macaca mulatta,CA,1.70454545454545
+feces metagenome,CA,1.63127912998446
+wastewater metagenome,CA,1.57048940832725
+Coturnix japonica,CA,1.5625
+eye metagenome,CA,1.5625
+Jasus edwardsii,CA,1.53846153846154
+fungus metagenome,CA,1.51898734177215
+pig gut metagenome,CA,1.5185601799775
+Canis lupus familiaris,CA,1.51515151515152
+activated sludge metagenome,CA,1.51089248067463
+human oral metagenome,CA,1.50136487716106
+Oryctes borbonicus,CA,1.49253731343284
+Mus musculus,CA,1.45343621029966
+rhizosphere metagenome,CA,1.41292829388909
+human vaginal metagenome,CA,1.41263940520446
+hydrothermal vent metagenome,CA,1.40350877192982
+food metagenome,CA,1.36857008022652
+Bacteria ambigua,CA,1.31578947368421
+bacterium,CA,1.30784708249497
+compost metagenome,CA,1.30548302872063
+unidentified bacterium,CA,1.27659574468085
+sea squirt metagenome,CA,1.27388535031847
+oyster metagenome,CA,1.25391849529781
+biofilm metagenome,CA,1.25296308838469
+sponge metagenome,CA,1.22511485451761
+whole organism metagenome,CA,1.20481927710843
+homo sapien,CA,1.18406889128095
+Solanum tuberosum,CA,1.17647058823529
+mouse skin metagenome,CA,1.16788321167883
+Gulosus aristotelis,CA,1.14942528735632
+rat gut metagenome,CA,1.12517580872011
+endophyte metagenome,CA,1.12485939257593
+food production metagenome,CA,1.06382978723404
+Teleogryllus oceanicus,CA,1.06382978723404
+Boechera stricta,CA,0.979591836734694
+leaf metagenome,CA,0.97799511002445
+human tracheal metagenome,CA,0.961538461538462
+Gallus gallus,CA,0.886524822695036
+human reproductive system metagenome,CA,0.87719298245614
+Bos taurus,CA,0.873362445414847
+freshwater sediment metagenome,CA,0.870147255689424
+hydrocarbon metagenome,CA,0.856164383561644
+Arabidopsis thaliana,CA,0.847756976333451
+9606,CA,0.847457627118644
+sludge metagenome,CA,0.831600831600832
+mixed culture,CA,0.813008130081301
+chicken gut metagenome,CA,0.775623268698061
+soil crust metagenome,CA,0.757575757575758
+bovine gut metagenome,CA,0.756964069438837
+subsurface metagenome,CA,0.738916256157635
+honeybee metagenome,CA,0.735294117647059
+unidentified prokaryotic organism,CA,0.717703349282297
+Ovis aries,CA,0.675675675675676
+Bacteria aborigena,CA,0.666666666666667
+Methanobacterium beijingense,CA,0.617283950617284
+mouse gut metagenome,CA,0.603968938740293
+pond metagenome,CA,0.591715976331361
+riverine metagenome,CA,0.573065902578797
+microbial mat metagenome,CA,0.555555555555556
+bioreactor sludge metagenome,CA,0.55350553505535
+estuary metagenome,CA,0.484261501210654
+bioreactor metagenome,CA,0.462962962962963
+mixed culture metagenome,CA,0.43859649122807
+anaerobic digester metagenome,CA,0.435097897026831
+aquifer metagenome,CA,0.421940928270042
+1297885,CA,0.363636363636364
+Triticum aestivum,CA,0.338600451467269
+Rattus norvegicus,CA,0.244498777506112
+leaf litter metagenome,CA,0.193050193050193
+uncultured eukaryote,CA,0.140449438202247
+Meleagris gallopavo,CA,0
+Mycobacterium tuberculosis,CA,0
+Pocillopora eydouxi,CA,0
+Haploposthia lactomaculata,CA,0
+Litopenaeus vannamei,CA,0
+Cancer borealis,CM,29.0322580645161
+Aphthona venustula,CM,0
+Crioceris duodecimpunctata,CM,0
+Centricnemus leucogrammus,CM,0
+Arabidopsis,CM,0
+Oenothera,CM,0
+Rubus,CM,0
+Punica granatum,CM,100
+Cyamopsis tetragonoloba,CM,0
+179.C.PMA,CM,0
+Branchiostoma belcheri,CM,0
+Candidatus Entotheonella sp.,CM,0
+Daphnia obtusa,CM,0
+Diospyros kaki,CM,0
+Eublepharis macularius,CM,0
+Gemmatimonas,CM,0
+Rhipicephalus haemaphysaloides,CM,0
+Skermanella,CM,0
+Argoptochus quadrisignatus,CM,0
+Bembidion modestum,CM,0
+Crotalaria retusa,CM,0
+Lantana,CM,0
+human milk metagenome,CM,0
+Lactobacillus crispatus,CM,0
+Bembidion decorum,CM,0
+Nepenthes rafflesiana,CM,0
+Metrosideros polymorpha,CM,0
+human nasal/pharyngeal metagenome,CM,0.666666666666667
+Bembidion punctulatum,CM,0
+Eusomus ovulum,CM,0
+Aphodius depressus,CM,0
+Onthophagus ruficapillus,CM,0
+Aphodius haemorrhoidalis,CM,0
+Onthophagus similis,CM,0
+Ochlerotatus stimulans,CM,0
+Caenorhabditis elegans,CM,0
+Alphaproteobacteria,CM,0
+Polydrusus inustus,CM,0
+Solanum lycopersicum,CM,0
+Bembidion varicolor,CM,0
+Sophora,CM,0
+Acacia koa,CM,0
+Mycale grandis,CM,0
+Solirubrobacter,CM,0
+dinoflagellate metagenome,CM,0
+invertebrate metagenome,CM,0
+Bacteriastrum furcatum,CM,0
+Litoditis marina,CM,0
+Enterovirus D68,CM,0
+urogenital metagenome,CM,0
+Phormia,CM,0
+Heptageniidae environmental sample,CM,0
+Paederidus ruficollis,CM,0
+Aphodius pusillus,CM,0
+hospital metagenome,CM,15.8730158730159
+dust metagenome,CM,0
+beetle metagenome,CM,0.305810397553517
+urban metagenome,CM,0
+Brassica rapa var. Rapa,CM,0
+Paederidus rubrothoracicus,CM,0
+Oncorhynchus keta,CM,0
+Trachemys scripta,CM,0
+Gaiella,CM,0
+Haliangium,CM,0
+Lucilia,CM,0
+Rotavirus A,CM,0
+human nasopharyngeal metagenome,CM,1.52184585174276
+Lactobacillus acidifarinae,CM,0
+Tripneustes gratilla,CM,3.84615384615385
+air metagenome,CM,0
+zebrafish metagenome,CM,0
+Daucus carota,CM,0
+Cheilotoma musciformis,CM,0
+Helicobacter pylori,CM,0
+mine tailings metagenome,CM,0
+1214906,CM,4.87804878048781
+insect environmental sample,CM,0
+Carica papaya,CM,0
+Brassica oleracea var. botrytis,CM,0
+Chamaecrista,CM,0
+fish metagenome,CM,0
+Aedes albopictus,CM,0
+human skin metagenome,CM,2.68933539412674
+Subpsaltria yangi,CM,0
+Brassica napus var. Napus,CM,0
+Anas platyrhynchos,CM,0
+Brassica oleracea var. capitata,CM,0
+Aphis gossypii,CM,0
+Crioceris quatuordecimpunctata,CM,0
+Diplotaxis tenuifolia,CM,0
+Paederus riparius,CM,0
+Onthophagus ovatus,CM,0
+Aphodius sphacelatus,CM,0
+Norovirus 02/2010/Nanjing,CM,0
+Onthophagus taurus,CM,0
+Python regius,CM,0
+unidentified virus,CM,2.5974025974026
+Calliphora,CM,0
+invertebrate gut metagenome,CM,0
+Salmo salar,CM,0
+Megaptera novaeangliae,CM,0
+salt lake metagenome,CM,0
+Calliphora terraenovae,CM,0
+Saxifraga oppositifolia,CM,0
+cave metagenome,CM,0
+pig metagenome,CM,0
+Brassica napus,CM,0
+rock metagenome,CM,0
+echinoderm metagenome,CM,0
+coral metagenome,CM,0.143112701252236
+Vitis vinifera,CM,0
+enrichment culture,CM,0
+honey metagenome,CM,0
+human bile metagenome,CM,0
+koala metagenome,CM,12.5
+cetacean metagenome,CM,0
+skin metagenome,CM,0
+Lactobacillus,CM,0
+Bactrocera dorsalis,CM,0
+Cyprinus carpio,CM,1.96078431372549
+shrimp gut metagenome,CM,2.32558139534884
+milk metagenome,CM,0
+Euprymna scolopes,CM,0
+Sus scrofa,CM,0
+Peromyscus leucopus,CM,2.04918032786885
+human metagenome,CM,1.1590989265736
+Rhipicephalus sanguineus,CM,0
+Rhizoctonia solani,CM,0
+Hyphochytrium catenoides,CM,0
+Paederus limnophilus,CM,0
+alkali sediment metagenome,CM,0
+urine metagenome,CM,0
+respiratory tract metagenome,CM,0
+Homo sapiens,CM,0.514808309611774
+Littoraria irrorata,CM,0
+aerosol metagenome,CM,2.32558139534884
+insect metagenome,CM,0
+Crassostrea gigas,CM,0.94017094017094
+clinical metagenome,CM,0
+fish gut metagenome,CM,0
+indoor metagenome,CM,0.417246175243394
+beach sand metagenome,CM,0
+Dermacentor andersoni,CM,0
+rumen bacterium 1/9293-11A,CM,0
+annelid metagenome,CM,0
+Drosophila simulans,CM,4
+Oncorhynchus mykiss,CM,0
+408170,CM,0
+upper respiratory tract metagenome,CM,0
+Phaseolus vulgaris,CM,0
+mosquito metagenome,CM,0
+Bombus terrestris,CM,0
+plastic metagenome,CM,0
+Bos grunniens,CM,0
+Reticulitermes flavipes,CM,0
+phyllosphere metagenome,CM,0.188501413760603
+Proteobacteria,CM,0
+Drosophila melanogaster,CM,0
+symbiont metagenome,CM,0
+Pristionchus pacificus,CM,0
+ant metagenome,CM,0
+oil field metagenome,CM,0
+Hirundo rustica,CM,0
+tick metagenome,CM,0
+floral nectar metagenome,CM,0
+uncultured bacterium,CM,0.969227041434456
+amplicon sequences,CM,0
+Sparus aurata,CM,0
+marine sediment metagenome,CM,0.123304562268804
+seagrass metagenome,CM,0
+root metagenome,CM,0.0494071146245059
+metagenomes,CM,0
+metagenome,CM,0.246913580246914
+crustacean metagenome,CM,0
+16S rRNA gene amplicons,CM,0
+Fungia,CM,0
+glacier metagenome,CM,0
+Bacteria,CM,0
+frog metagenome,CM,0
+insect gut metagenome,CM,0
+Oscheius brevesophaga,CM,0
+mouse metagenome,CM,0.584036340038936
+bird metagenome,CM,0
+biofilter metagenome,CM,0
+Ixodes scapularis,CM,0
+coral reef metagenome,CM,0
+unclassified sequences,CM,0
+hot springs metagenome,CM,0
+Ascomycota,CM,0
+human gut metagenome,CM,0.0167208102426906
+ice metagenome,CM,0
+groundwater metagenome,CM,0
+bacterial mixed DNA library,CM,0
+solid waste metagenome,CM,0
+outdoor metagenome,CM,0
+crab metagenome,CM,0
+freshwater metagenome,CM,0.0616734050572192
+plastisphere metagenome,CM,0
+human lung metagenome,CM,0.408163265306122
+Mus musculus domesticus,CM,0
+Struthio camelus,CM,0
+plant metagenome,CM,0.00826377985290472
+aquatic metagenome,CM,0.142952444486801
+nematode metagenome,CM,0
+Porites lobata,CM,0
+Porites rus,CM,0
+Glycine max,CM,0
+bovine metagenome,CM,0
+mollusc metagenome,CM,0
+primate metagenome,CM,0
+terrestrial metagenome,CM,0.112739571589628
+Musca domestica,CM,0
+32644,CM,0
+Bacteria bahiensis,CM,0
+lake water metagenome,CM,0.161030595813205
+Copepoda environmental sample,CM,0
+gut metagenome,CM,0.0284609728909233
+algae metagenome,CM,0.435413642960813
+vaginal metagenome,CM,0
+Sus scrofa domesticus,CM,0
+human blood metagenome,CM,0
+lung metagenome,CM,0.31496062992126
+marine metagenome,CM,0.0507505742828143
+fermentation metagenome,CM,0
+Bacteria abnormis,CM,0
+ant fungus garden metagenome,CM,0
+uncultured prokaryote,CM,0
+silage metagenome,CM,0
+oral metagenome,CM,0
+snow metagenome,CM,0
+soil metagenome,CM,0.0280277327039386
+Firmicutes bacterium,CM,0
+environmental samples,CM,0
+Bacteria acuminatocercata,CM,0
+stomach metagenome,CM,0
+synthetic metagenome,CM,0
+sediment metagenome,CM,0
+food fermentation metagenome,CM,0
+termite gut metagenome,CM,0.645161290322581
+Equus caballus,CM,0.274725274725275
+cow dung metagenome,CM,0
+seawater metagenome,CM,0.062015503875969
+uncultured organism,CM,0
+organismal metagenomes,CM,0
+mixed sample,CM,0
+Oreochromis niloticus,CM,0
+unclassified Bacteria (miscellaneous),CM,0
+unidentified,CM,0
+Macaca mulatta,CM,0
+feces metagenome,CM,0
+wastewater metagenome,CM,0.0365230094959825
+Coturnix japonica,CM,0
+eye metagenome,CM,0
+Jasus edwardsii,CM,0
+fungus metagenome,CM,0
+pig gut metagenome,CM,0.112485939257593
+Canis lupus familiaris,CM,0.757575757575758
+activated sludge metagenome,CM,0.0351370344342937
+human oral metagenome,CM,0.0454959053685168
+Oryctes borbonicus,CM,0
+Mus musculus,CM,0.287098510676476
+rhizosphere metagenome,CM,0
+human vaginal metagenome,CM,0
+hydrothermal vent metagenome,CM,0
+food metagenome,CM,0.283152430391694
+Bacteria ambigua,CM,0
+bacterium,CM,0
+compost metagenome,CM,0
+unidentified bacterium,CM,0
+sea squirt metagenome,CM,0
+oyster metagenome,CM,0.313479623824451
+biofilm metagenome,CM,0
+sponge metagenome,CM,0
+whole organism metagenome,CM,0
+homo sapien,CM,0
+Solanum tuberosum,CM,0
+mouse skin metagenome,CM,0.291970802919708
+Gulosus aristotelis,CM,0
+rat gut metagenome,CM,0.070323488045007
+endophyte metagenome,CM,0.0449943757030371
+food production metagenome,CM,0
+Teleogryllus oceanicus,CM,0
+Boechera stricta,CM,0
+leaf metagenome,CM,0
+human tracheal metagenome,CM,0.961538461538462
+Gallus gallus,CM,0.0886524822695036
+human reproductive system metagenome,CM,0
+Bos taurus,CM,0
+freshwater sediment metagenome,CM,0
+hydrocarbon metagenome,CM,0.171232876712329
+Arabidopsis thaliana,CM,0
+9606,CM,0
+sludge metagenome,CM,0
+mixed culture,CM,0
+chicken gut metagenome,CM,0.0554016620498615
+soil crust metagenome,CM,0
+bovine gut metagenome,CM,0.0100928542591845
+subsurface metagenome,CM,0
+honeybee metagenome,CM,0
+unidentified prokaryotic organism,CM,0
+Ovis aries,CM,0
+Bacteria aborigena,CM,0
+Methanobacterium beijingense,CM,0
+mouse gut metagenome,CM,0.0152261076993351
+pond metagenome,CM,0
+riverine metagenome,CM,0
+microbial mat metagenome,CM,0
+bioreactor sludge metagenome,CM,0
+estuary metagenome,CM,0
+bioreactor metagenome,CM,0
+mixed culture metagenome,CM,0
+anaerobic digester metagenome,CM,0
+aquifer metagenome,CM,0
+1297885,CM,0
+Triticum aestivum,CM,0
+Rattus norvegicus,CM,0
+leaf litter metagenome,CM,0
+uncultured eukaryote,CM,0
+Meleagris gallopavo,CM,1.47058823529412
+Mycobacterium tuberculosis,CM,3.125
+Pocillopora eydouxi,CM,3.33333333333333
+Haploposthia lactomaculata,CM,7.69230769230769
+Litopenaeus vannamei,CM,100
