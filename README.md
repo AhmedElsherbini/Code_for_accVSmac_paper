@@ -2,7 +2,7 @@
 
 *This repo is for the publication of ...
 
-**FASTA files could be found at ...
+**FASTA files could be found [Here](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1346837)
 
 
 **How do you download many files from the BV-BRC (PATRIC) website ?**
