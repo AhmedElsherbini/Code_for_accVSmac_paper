@@ -17,7 +17,7 @@ xargs -n 1 -I {} curl -s "https://www.bv-brc.org/api/genome_sequence/?eq(genome_
 
 **How do you assemble short and hybrid long and short reads ?**
 
-For genome assembly, we will use the friendly tool [Unicycler](https://github.com/rrwick/Unicycler)
+For genome assembly, we used the friendly tool [Unicycler](https://github.com/rrwick/Unicycler)
 
 *Shortread*
 
