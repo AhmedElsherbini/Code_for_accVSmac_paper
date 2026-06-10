@@ -3,6 +3,8 @@ library(ggplot2)
 library(dplyr)
 library(xlsx)
 library(patchwork)
+library(VennDiagram)
+library(ggplotify)
 #http://www.sthda.com/english/wiki/ggplot2-barplots-quick-start-guide-r-software-and-data-visualization
 #30.09.2025
 
@@ -14,15 +16,11 @@ df$Samples = as.numeric(df$Samples)
 
 # Basic barplot
 
-
-
-
-p1 <- ggplot(df, aes(fill = names,reorder(Species, Samples), Samples)) + geom_col(position = "dodge")+
-  coord_flip() +
-  xlab("Species")+
-  ylab("No. of ecological niches (IMNGS database)")+
-  theme(text = element_text(size=28),legend.position="none")+
-  geom_text(aes(label=round(Samples, digits = 2)),hjust=-0.25,vjust=.45,size = 12)+
+p1 <- ggplot(df, aes(fill = names,reorder(Species, Samples), Samples)) + geom_col(position = "dodge")+ 
+  coord_flip() + 
+  xlab("Species")+ ylab("No. of ecological habitats (IMNGS database)")+ 
+  theme(text = element_text(size=28),legend.position="none", axis.text.y = element_text(face = "italic", color = "black"))+ 
+  geom_text(aes(label=round(Samples, digits = 2)),hjust=-0.25,vjust=.45,size = 12)+ 
   ylim(0,400)
 
 
@@ -30,25 +28,56 @@ p1 <- ggplot(df, aes(fill = names,reorder(Species, Samples), Samples)) + geom_co
 p1
 
 
+#################################3
+library(grid)
+df <- read.csv("ecology.csv", header = TRUE, stringsAsFactors = FALSE)
+
+CA <- unique(df$Sample[df$Species == "CA"])
+CM <- unique(df$Sample[df$Species == "CM"])
+
+venn_list <- list(
+  CA = CA,
+  CM = CM
+)
 
 
+
+p1.5 <- ggplotify::as.ggplot(function() {
+  grid.newpage()
+  grid.draw(
+    draw.pairwise.venn(
+      area1 = length(CA),
+      area2 = length(CM),
+      cross.area = length(intersect(CA, CM)),
+      category = c("CA", "CM"),
+      fill = c("#f8766d", "#00bfc4"),
+      alpha = 0.6,
+      cex = 2,
+      cat.cex = 2
+    )
+  )
+})
+
+p1.5
+#################################
 df2 = data.frame(read.csv("ecology.csv"))
 
 df2$Sample  <- factor(df2$Sample , levels = unique(df2$Sample))
 
 
-custom_theme <- theme_gray() +
+custom_theme <- theme_gray()  +
   theme(text = element_text(size=28),
         axis.text.x  = element_blank(),   # hide x-axis labels
         axis.ticks.x = element_blank(),legend.position="none"
   )
 
 
-
 p2 <- ggplot(df2, aes(fill = Species, y = Prev., x = Sample)) + 
   geom_bar(position = "dodge", stat = "identity") +
-  labs(y = "Prev. per niche [%]", x = "Ecological niches of CA&CM (IMNGS database)") +
-  custom_theme
+  labs(y = "Prev. per habitat [%]", x = "Ecological habitats of CA&CM (IMNGS database)") +
+  custom_theme+
+  scale_fill_manual(values = c("pink", "black")) 
+
 
 p2
 
@@ -69,7 +98,7 @@ dodge <- position_dodge(width = 0.9)
 p3 <- ggplot(df3, aes(x = Sample, y = Prev., fill = Species)) + 
   geom_bar(stat = "identity", position = dodge) +
   geom_text(aes(label = round(Prev.,2)), position = dodge, hjust = -0.1,size = 10) + # numbers outside bars
-  labs(x = "Human associated niches", y = "CA and CM Prev. [%] (IMNGS database)") +
+  labs(x = "Human associated habitats", y = "CA and CM Prev. [%] (IMNGS database)") +
   coord_flip()+
   theme(text = element_text(size=28),legend.position="none")+
   ylim(0,75)
@@ -100,7 +129,7 @@ dodge <- position_dodge(width = 0.9)
 p5 <- ggplot(df5, aes(x = Sample, y = Prev., fill = Species)) + 
   geom_bar(stat = "identity", position = dodge) +
   geom_text(aes(label = round(Prev.,2)), position = dodge, hjust = -0.1,size = 10) + # numbers outside bars
-  labs(x = "Human secretion associated niches", y = "CA Prev. [%] (IMNGS database)") +
+  labs(x = "Human secretion associated habitats", y = "CA Prev. [%] (IMNGS database)") +
   coord_flip()+
   theme(text = element_text(size=28),legend.position="none")+
   ylim(0,100)
@@ -111,7 +140,7 @@ p5
 p4 <- ggplot(df4, aes(x = Sample, y = Prev., fill = Species)) + 
   geom_bar(stat = "identity", position = dodge) +
   geom_text(aes(label = round(Prev.,2)), position = dodge, hjust = -0.1,size = 10) + # numbers outside bars
-  labs(x = "Human associated niches", y = "CA Prev. [%] (curatedMetagenomicData database)") +
+  labs(x = "Human associated habitats", y = "CA Prev. [%] (curatedMetagenomicData database)") +
   coord_flip()+
   theme(text = element_text(size=28),legend.position="none")+
   ylim(0,100)
@@ -121,11 +150,15 @@ p4
 
 
 
-final_plot <- (p1+p2+p3+p5+p4) + 
-  plot_layout(ncol = 2, nrow = 3) + 
-  plot_annotation(tag_levels = 'A')  # Labels panels as A, B, C, D, E
-
+final_plot <- (p1 + p1.5 + p2 + p3 + p5 + p4) +
+  patchwork::plot_layout(
+    ncol = 2,
+    nrow = 3,
+    widths = rep(1, 2),
+    heights = rep(1, 3)
+  ) +
+  patchwork::plot_annotation(tag_levels = 'A')
 # Display the final plot
 print(final_plot)
 
-#################################3
+
