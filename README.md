@@ -1,6 +1,6 @@
 ## Iron acquisition mechanisms are signatures for ecological adaptation of the human nasal species *Corynebacterium accolens*
 
-*For the PROKKA v(1.14.5) annotated protein file of C. accolens KPL1818, can be found 
+**For the PROKKA v(1.14.5) annotated protein file of *C. accolens* KPL1818, can be found `RNA-seq/CA_KPL_1818.faa`**
 
 **FASTA files could be found [Here](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1346837)
 
@@ -85,7 +85,7 @@ panaroo -i *.gff -o results --clean-mode strict
 ```
 Then we need to extract unique and shared genes using the presence-absence CSV file from the output of Panaroo with this simple script named [Panroo_stats](https://github.com/AhmedElsherbini/Panaroo_stats). Later visualization with other R script attached.
 
- For visualization, we used an R script (4_COG/barplot.R).
+ For visualization, we used an R script `4_COG/barplot.R`.
 
 *What about AMR profiling?*
 
@@ -114,7 +114,7 @@ Use the fasta file from prokka, the FNA extension, and take care of the header i
 ```Bash
 FeGenie.py -bin_dir genomes/ -bin_ext fna -out fegenie_out
 ```
-For visualization, we can use an R script (5_Iron/iron_stats.R).
+For visualization, we can use an R script `5_Iron/iron_stats.R`.
 
 
 **RNA seq analysis**
@@ -125,5 +125,5 @@ The resulting featureCounts tables were consolidated into one file and further p
 
 **RNA seq visualization**
 
- For visualization, we can use an R script (7_RNA_seq_visualization/RNA_seq_data.R).
+ For visualization, we can use an R script `7_RNA_seq_visualization/RNA_seq_data.R`.
 
