@@ -86,7 +86,7 @@ panaroo -i *.gff -o results --clean-mode strict
 ```
 Then we need to extract unique and shared genes using the presence-absence CSV file from the output of Panaroo with this simple script named [Panroo_stats](https://github.com/AhmedElsherbini/Panaroo_stats). Later visualization with other R script attached.
 
- For visualization, we used an R script ().
+ For visualization, we used an R script (4_COG/barplot.R).
 
 *What about AMR profiling?*
 
@@ -115,7 +115,7 @@ Use the fasta file from prokka, the FNA extension, and take care of the header i
 ```Bash
 FeGenie.py -bin_dir genomes/ -bin_ext fna -out fegenie_out
 ```
-For visualization, we can use an R script (number_xx).
+For visualization, we can use an R script (5_Iron/iron_stats.R).
 
 
 **RNA seq analysis**
