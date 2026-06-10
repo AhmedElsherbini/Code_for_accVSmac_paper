@@ -77,7 +77,7 @@ Do not forget to mark all of your genome names with a prefix, like CAI_, CAII_,.
 
 We can benefit from the output of Bakta using [Bakta_stats](https://github.com/AhmedElsherbini/Bakta_stats) 
 
-For visualization, we can use an R script (number_xx).
+For visualization, we can use an R script (3_Bakta/bakta_visualization.R).
 
 I  will use the nice tool of [Panaroo](https://github.com/gtonkinhill/panaroo), which uses the GFF files that are out of the Prokka tool.
 
@@ -86,7 +86,7 @@ panaroo -i *.gff -o results --clean-mode strict
 ```
 Then we need to extract unique and shared genes using the presence-absence CSV file from the output of Panaroo with this simple script named [Panroo_stats](https://github.com/AhmedElsherbini/Panaroo_stats). Later visualization with other R script attached.
 
- For visualization, we used an R script (number_xx).
+ For visualization, we used an R script ().
 
 *What about AMR profiling?*
 
