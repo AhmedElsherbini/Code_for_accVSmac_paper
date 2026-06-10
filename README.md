@@ -1,9 +1,8 @@
 ## Iron acquisition mechanisms are signatures for ecological adaptation of the human nasal species *Corynebacterium accolens*
 
-
+*For the PROKKA v(1.14.5) annotated protein file of C. accolens KPL1818, can be found 
 
 **FASTA files could be found [Here](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1346837)
-
 
 **How do you download many files from the BV-BRC (PATRIC) website ?**
 
