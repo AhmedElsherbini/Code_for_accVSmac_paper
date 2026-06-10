@@ -124,6 +124,6 @@ The RNA-seq data was analyzed using an in-house pipeline (DOI: 10.5281/zenodo.75
 
 The resulting featureCounts tables were consolidated into one file and further processed using DESeq2 (`RNA-seq/applyDEseq.sh`)
 
-
- For visualization, we can use an R script ().
+**RNA seq visualization**
+ For visualization, we can use an R script (7_RNA_seq_visualization/RNA_seq_data.R).
 
