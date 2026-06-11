@@ -76,7 +76,7 @@ Do not forget to mark all of your genome names with a prefix, like CAI_, CAII_,.
 
 We can benefit from the output of Bakta using [Bakta_stats](https://github.com/AhmedElsherbini/Bakta_stats) 
 
-For visualization, we can use an R script (3_Bakta/bakta_visualization.R).
+For visualization, we can use an R script `3_Bakta/bakta_visualization.R`.
 
 I  will use the nice tool of [Panaroo](https://github.com/gtonkinhill/panaroo), which uses the GFF files that are out of the Prokka tool.
 
