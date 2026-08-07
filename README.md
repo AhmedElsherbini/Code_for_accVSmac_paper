@@ -121,7 +121,7 @@ For visualization, we can use an R script `5_Iron/iron_stats.R`.
 
 **RNA seq analysis**
 
-The RNA-seq data was analyzed using an [in-house pipeline](https://zenodo.org/records/7500899) and the script `RNA-seq/Run_RNAseq_analysis.sh`. 
+The RNA-seq data was analyzed using an [in-house pipeline](https://zenodo.org/records/7500899) and the bash script `RNA-seq/Run_RNAseq_analysis.sh`. 
 
 The resulting featureCounts tables were consolidated into one file and further processed using DESeq2 (`RNA-seq/applyDEseq.sh`)
 
