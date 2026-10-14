@@ -4,7 +4,7 @@
 
 **The list of upregulated proteins from Table 5 is also attached as a FASTA file and can be found `RNA-seq/list_of_upregulated_proteines.faa`**
 
-**DNA FASTA file could be found [NCBI](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1346837)
+** The DNA FASTA file can be found at [NCBI](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1346837)
 
 **How do you download many files from the BV-BRC (PATRIC) website ?**
 
